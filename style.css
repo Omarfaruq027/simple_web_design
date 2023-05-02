@@ -172,7 +172,7 @@ ul {
 /* footer-css */
 .footer {
   margin: 35px 0;
-  padding: 20px;
+  padding: 30px;
   text-align: center;
   background-color: teal;
 }
@@ -180,4 +180,29 @@ ul {
   color: white;
   font-size: 20px;
   font-weight: bold;
+}
+/* page bannar css */
+.page-banner {
+  background-size: cover;
+  background-position: center;
+  padding: 120px 0;
+  position: relative;
+  z-index: 2;
+}
+.page-banner::before {
+  content: "";
+  position: absolute;
+  z-index: -1;
+  height: 100%;
+  width: 100%;
+  left: 0;
+  top: 0;
+  background-color: black;
+  opacity: 0.6;
+}
+.page-banner h2 {
+  text-align: center;
+  text-transform: capitalize;
+  font-size: 40px;
+  color: white;
 }
