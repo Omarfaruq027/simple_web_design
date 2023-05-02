@@ -24,7 +24,20 @@ img {
 ul {
   list-style: none;
 }
-
+.btn {
+  display: inline-block;
+  background-color: tomato;
+  color: white;
+  font-size: 20px;
+  padding: 10px 30px;
+  margin-top: 20px;
+  text-decoration: none;
+  text-transform: capitalize;
+  transition: 0.3s;
+}
+.btn:hover {
+  background-color: chocolate;
+}
 /* header_start */
 .header {
   background-color: #dddddd;
@@ -69,3 +82,41 @@ ul {
 .banner img {
 }
 /* banner_end */
+/* service_start */
+.services {
+}
+.title {
+}
+.title h4 {
+  margin: 40px 0;
+  text-align: center;
+  text-transform: capitalize;
+  font-size: 40px;
+}
+.service {
+}
+.single_service {
+  float: left;
+  width: 313px;
+  background-color: teal;
+  margin-right: 30px;
+  padding: 20px;
+  color: white;
+}
+.single_service:last-child {
+  margin-right: 0;
+}
+.single_service h4 {
+  text-align: center;
+  margin-bottom: 10px;
+  font-size: 30px;
+  text-transform: capitalize;
+}
+.single_service img {
+}
+.single_service p {
+}
+.single_service a {
+}
+
+/* service_end */
