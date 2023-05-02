@@ -84,6 +84,7 @@ ul {
 /* banner_end */
 /* service_start */
 .services {
+  padding-bottom: 30px;
 }
 .title {
 }
@@ -120,3 +121,64 @@ ul {
 }
 
 /* service_end */
+/* about-css */
+.about {
+}
+.about-left {
+  font-size: 20px;
+  float: left;
+  width: 700px;
+  margin-right: 30px;
+}
+.about-left h4,
+.about-menu h4 {
+  padding-top: 40px;
+  font-size: 30px;
+  margin-bottom: 10px;
+}
+.about-left h4 p {
+  margin-bottom: 10px;
+}
+.about-left h4 a {
+}
+.about-menu {
+  float: right;
+  width: 248px;
+}
+.about-menu ul {
+}
+.about-menu ul li {
+  background-image: url(../img/arrow.png);
+  background-repeat: no-repeat;
+  background-position: -8px 1px;
+  padding-left: 30px;
+  margin-bottom: 10px;
+  padding-bottom: 10px;
+  border-bottom: 1px solid black;
+}
+.about-menu ul li:last-child {
+  border-bottom: none;
+}
+.about-menu ul li a {
+  text-decoration: none;
+  font-size: 20px;
+  display: block;
+  color: black;
+}
+.about-menu ul li :hover {
+  color: tomato;
+}
+
+/* footer-css */
+.footer {
+  line-height: 30px;
+  text-align: center;
+  background-color: teal;
+}
+.footer p {
+  margin: 50px;
+  padding: 10px;
+  color: white;
+  font-size: 20px;
+  font-weight: bold;
+}
