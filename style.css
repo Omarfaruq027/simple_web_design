@@ -104,9 +104,7 @@ ul {
   padding: 20px;
   color: white;
 }
-.single_service:last-child,
-.service-section,
-.single_service:nth-child(4) {
+.single_service:last-child {
   margin-right: 0;
 }
 .single_service h4 {
@@ -173,7 +171,7 @@ ul {
 
 /* footer-css */
 .footer {
-  margin: 45px 0;
+  margin: 35px 0;
   padding: 30px;
   text-align: center;
   background-color: teal;
@@ -210,9 +208,12 @@ ul {
 }
 
 /* service-section */
-.service-section,
-.single_service {
+.service-section .single_service {
   width: 227px;
   display: inline;
-  margin-bottom: 30px;
+  margin-bottom: 20px;
+}
+.service-section,
+.single_service:nth-child(4) {
+  margin-right: 0;
 }
