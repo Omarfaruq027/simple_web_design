@@ -104,7 +104,9 @@ ul {
   padding: 20px;
   color: white;
 }
-.single_service:last-child {
+.single_service:last-child,
+.service-section,
+.single_service:nth-child(4) {
   margin-right: 0;
 }
 .single_service h4 {
@@ -171,7 +173,7 @@ ul {
 
 /* footer-css */
 .footer {
-  margin: 35px 0;
+  margin: 45px 0;
   padding: 30px;
   text-align: center;
   background-color: teal;
@@ -205,4 +207,12 @@ ul {
   text-transform: capitalize;
   font-size: 40px;
   color: white;
+}
+
+/* service-section */
+.service-section,
+.single_service {
+  width: 227px;
+  display: inline;
+  margin-bottom: 30px;
 }
